@@ -1,0 +1,9 @@
+{%set data = data.data%}
+
+<div id="carbonBar">
+  {%for x in data.generationmix%}
+    <div id={{x.fuel}} class="fuel" style="width: {{x.perc}}%">
+      <span>{{x.fuel|title}}</span>
+    </div>
+  {%endfor%}
+</div>

@@ -1,0 +1,57 @@
+#carbonBar {
+  height: 30px;
+  width: 50vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+#carbonBar div {
+  height: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 30%;
+  overflow: hidden;
+}
+
+#carbonBar div::before {
+  content: "";
+  display: inline-block;
+}
+
+#carbonBar div::after {
+  content: "";
+  display: inline-block;
+}
+
+#carbonBar div span {
+  display: inline-block;
+}
+
+#biomass {
+  background-color: green;
+}
+#coal {
+  background-color: rgb(94, 94, 94);
+}
+#imports {
+  background-color: rgb(64, 64, 247);
+}
+#gas {
+  background-color: yellow;
+}
+#nuclear {
+  background-color: purple;
+}
+#other {
+  background-color: gray;
+}
+#hydro {
+  background-color: cyan;
+}
+#solar {
+  background-color: orange;
+}
+#wind {
+  background-color: lightblue;
+}
