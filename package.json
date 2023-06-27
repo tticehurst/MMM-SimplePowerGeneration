@@ -1,8 +1,8 @@
 {
-  "name": "tomcarbon",
+  "name": "mmm-simplepowergeneration",
   "version": "1.0.0",
   "description": "",
-  "main": "TomCarbon.js",
+  "main": "MMM-SimplePowerGeneration.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
